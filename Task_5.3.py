@@ -99,8 +99,8 @@ def measure_time(text, pattern):
         results[name] = time_taken
     return results
 
-article1_text = read_file("F:/goit-algo-hw/goit-algo-hw-02/article1.txt")
-article2_text = read_file("F:/goit-algo-hw/goit-algo-hw-02/article2.txt")
+article1_text = read_file("article1.txt")
+article2_text = read_file("article2.txt")
 
 existing_substring = "існуючий підрядок"
 non_existing_substring = "вигаданий підрядок" 
